@@ -47,14 +47,14 @@ movies()  """
 genre() """
 
 
-class Hero:
-    def _init_(self,name,money,inventory):
-        self.name = name 
-        self.money = money
-        self.inventory = inventory
-    def buy(self,item):
-        self.inventory.appen(item)
-        print(f"{self.name} purchased {item} and has {self.inventory}")
-Nathan = Hero("Nathan", 0, ["Pencil"])
-print(Nathan._dict_)
-Nathan.buy("Xi Yang")
+# class Hero:
+#     def _init_(self,name,money,inventory):
+#         self.name = name 
+#         self.money = money
+#         self.inventory = inventory
+#     def buy(self,item):
+#         self.inventory.appen(item)
+#         print(f"{self.name} purchased {item} and has {self.inventory}")
+# Nathan = Hero("Nathan", 0, ["Pencil"])
+# print(Nathan._dict_)
+# Nathan.buy("Xi Yang")
