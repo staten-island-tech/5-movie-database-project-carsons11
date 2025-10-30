@@ -29,7 +29,7 @@ data = json.load(movies)
     w=w+1
 movies()  """
 
-def genre():
+""" def genre():
     q=0
     for i in data:
         print (data[q]['genres'])
@@ -44,4 +44,17 @@ def genre():
             v+=1
         v=0
         w+=1
-genre()
+genre() """
+
+
+class Hero:
+    def _init_(self,name,money,inventory):
+        self.name = name 
+        self.money = money
+        self.inventory = inventory
+    def buy(self,item):
+        self.inventory.appen(item)
+        print(f"{self.name} purchased {item} and has {self.inventory}")
+Nathan = Hero("Nathan", 0, ["Pencil"])
+print(Nathan._dict_)
+Nathan.buy("Xi Yang")
