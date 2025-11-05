@@ -29,7 +29,7 @@ data = json.load(movies)
     w=w+1
 movies()  """
 
-""" def genre():
+def genre():
     q=0
     for i in data:
         print (data[q]['genres'])
@@ -44,7 +44,7 @@ movies()  """
             v+=1
         v=0
         w+=1
-genre() """
+genre()
 
 
 # class Hero:
