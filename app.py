@@ -29,22 +29,27 @@ data = json.load(movies)
     w=w+1
 movies()  """
 
-""" def genre():
+def genre():
     q=0
     for i in data:
         print (data[q]['genres'])
         q=q+1
     x = input ("What genre of movies do you want to watch?")
+    moviesearch = False
     w=0 
     v=0
     for i in data:
         for j in data[w]["genres"]:
-            if x == data[w]["genres"][v]:
+            if x.lower() == data[w]["genres"][v].lower():
                 print(data[w]["title"])
+                moviesearch=True
+            if moviesearch = False:
+                print ("Sorry, there is no genres that match your seach.")
             v+=1
         v=0
         w+=1
-genre() """
+    
+genre()
 
 
 # class Hero:
