@@ -42,13 +42,12 @@ def genre():
         for j in data[w]["genres"]:
             if x.lower() == data[w]["genres"][v].lower():
                 print(data[w]["title"])
-                moviesearch=True
-            if moviesearch = False:
-                print ("Sorry, there is no genres that match your seach.")
+                moviesearch=True   
             v+=1
         v=0
         w+=1
-    
+    if moviesearch == False:
+        print ("Sorry, there is no genres that match your seach.")
 genre()
 
 
