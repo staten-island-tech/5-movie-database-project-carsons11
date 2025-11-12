@@ -46,8 +46,11 @@ def genre():
             v+=1
         v=0
         w+=1
+<<<<<<< HEAD
     if moviesearch == False:
         print ("Sorry, there is no genres that match your seach.")
+=======
+>>>>>>> 1fd940f03519aeebb159ebe89c990f9826881284
 genre()
 
 
